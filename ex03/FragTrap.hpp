@@ -6,7 +6,7 @@
 /*   By: afpachec <afpachec@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 23:23:42 by afpachec          #+#    #+#             */
-/*   Updated: 2025/07/04 22:37:01 by afpachec         ###   ########.fr       */
+/*   Updated: 2025/07/04 22:49:40 by afpachec         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,11 @@
 
 class FragTrap : virtual public ClapTrap {
 	public:
+				FragTrap(void);
 				FragTrap(std::string name);
+				FragTrap(const FragTrap &other);
 				~FragTrap(void);
+		FragTrap &operator=(const FragTrap &other);
 		void	highFivesGuys(void);
 		
 };
