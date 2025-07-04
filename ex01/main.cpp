@@ -6,7 +6,7 @@
 /*   By: afpachec <afpachec@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 22:04:10 by afpachec          #+#    #+#             */
-/*   Updated: 2025/07/04 22:05:11 by afpachec         ###   ########.fr       */
+/*   Updated: 2025/07/04 22:15:48 by afpachec         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,5 +84,4 @@ int	main(void) {
 	scav_ptr->guardGate();
 	delete scav_ptr;
 	std::cout << "\n=== ALL TESTS COMPLETED ===" << std::endl;
-	return 0;
 }
